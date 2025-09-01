@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  Height: 100vh;
+  background: #f4f4f4;
+  border-radius: 0;
+  Margin:0;
+}
+
+.container{
+  Text-align: center;
+  Padding:30px;
+  Background: white;
+  Border-radius: 15px;
+  Box-shawdow: 2px 2px 4px rgba(0, 0.5,0, 2);
+  Margin:0;
+
+}
+
+.buttons button{
+  Padding: 15px;
+  Font-size: 1rem;
+  Border:0;
+  Border-radius: 8px;
+  Margin: 5px;
+  Cursor: pointer;
+  Transition: 0.2s;
+
+  
+}
+
+#counter{
+   Font-size: 3rem 
+   Margin: 10px 0
+ }
+
+#increment{
+   Background: #f4AC40;
+   Color: white;
+}
+
+#decrement{
+   Background: #f43C51;
+   Color: white;
+}
+
+#reset{
+   Background: #00C531;
+}
+
+.buttons button:hover{
+    Opacity:0.8;
+}
+
+.positive{
+   color:green;
+}
+ 
+.negative{
+   color:red;
+}
+
+.neutral{
+   color: black;
+}
